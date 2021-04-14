@@ -4,13 +4,14 @@ export const Container = styled.section`
   background-image: url('/static/images/hero/bg.png');
   height: 100vh;
   width: 100vw;
-  max-height: 1078px;
+  max-height: 1080px;
   max-width: 1920px;
   background-repeat: no-repeat;
   background-position: center center;
   color: #fff;
   background-size: cover;
   overflow-x: hidden;
+
   @media screen and (max-width: 1748px) {
     background-position: -170px center;
   }
@@ -42,6 +43,7 @@ export const Wrapper = styled.div`
   flex-direction: column;
   justify-content: center;
   padding-left: 175px;
+
   @media screen and (max-width: 1820px) {
     padding-left: 100px;
   }

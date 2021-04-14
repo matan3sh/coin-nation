@@ -33,12 +33,14 @@ const GlobalStyle = createGlobalStyle`
 
 html,
 body {
-  font-family: Gilmer-Light, sans-serif !important;
+  font-family: 'CircularStd-Regular', sans-serif !important;
   width: 100%;
   height: 100vh;
   background: linear-gradient(304.49deg, #001443 45.38%, #000A2C 82.48%);
   color: #fff;
   scroll-behavior: smooth;
+    overflow-x: hidden;
+
 }
 
 ul {

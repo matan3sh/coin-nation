@@ -1,4 +1,4 @@
-import { Hero } from 'components/home';
+import { Hero, About } from 'components/home';
 import { Header } from 'components/layout';
 
 const Home = () => {
@@ -6,6 +6,7 @@ const Home = () => {
     <>
       <Header />
       <Hero />
+      <About />
     </>
   );
 };
