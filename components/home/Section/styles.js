@@ -1,14 +1,12 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  background-image: url('/static/images/about/bg.png');
   height: 100vh;
   width: 100vw;
   max-height: 1080px;
   max-width: 1920px;
   background-repeat: no-repeat;
   background-position: center center;
-  color: #fff;
   background-size: cover;
 `;
 
@@ -41,7 +39,6 @@ export const Wrapper = styled.div`
   > h1 {
     font-family: 'CircularStd-Medium';
     font-size: 54px;
-    color: #3f354d;
     width: 680px;
   }
   > p {
@@ -49,7 +46,6 @@ export const Wrapper = styled.div`
     line-height: 25px;
     font-family: 'CircularStd-Regular';
     margin: 2rem 0;
-    color: #3f354d;
     width: 550px;
   }
 `;
