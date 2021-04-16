@@ -1,14 +1,16 @@
 import { Hero, Section } from 'components/home';
 import { Header } from 'components/layout';
 
-import { about } from 'data';
+import { about, invite, aspect } from 'data';
 
 const Home = () => {
   return (
     <>
       <Header />
       <Hero />
-      <Section about={about} />
+      <Section data={about} />
+      <Section data={invite} />
+      <Section data={aspect} />
     </>
   );
 };
