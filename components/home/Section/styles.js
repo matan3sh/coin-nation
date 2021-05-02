@@ -2,9 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
   height: 100vh;
-  width: 100vw;
-  max-height: 1080px;
-  max-width: 1920px;
+  width: 100%;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -40,6 +38,10 @@ export const Wrapper = styled.div`
     font-family: 'CircularStd-Medium';
     font-size: 54px;
     width: 680px;
+    @media screen and (max-width: 768px) {
+      width: 90%;
+      font-size: 42px;
+    }
   }
   > p {
     font-size: 19px;
@@ -47,5 +49,10 @@ export const Wrapper = styled.div`
     font-family: 'CircularStd-Regular';
     margin: 2rem 0;
     width: 550px;
+    @media screen and (max-width: 768px) {
+      width: 90%;
+      font-size: 17px;
+      line-height: 20px;
+    }
   }
 `;

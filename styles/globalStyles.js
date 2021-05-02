@@ -39,8 +39,6 @@ body {
   background: linear-gradient(304.49deg, #001443 45.38%, #000A2C 82.48%);
   color: #fff;
   scroll-behavior: smooth;
-    overflow-x: hidden;
-
 }
 
 ul {

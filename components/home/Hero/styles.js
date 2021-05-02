@@ -3,33 +3,13 @@ import styled from 'styled-components';
 export const Container = styled.section`
   background-image: url('/static/images/hero/bg.png');
   height: 100vh;
-  width: 100vw;
   max-height: 1080px;
   max-width: 1920px;
   background-repeat: no-repeat;
   background-position: center center;
   color: #fff;
   background-size: cover;
-  overflow-x: hidden;
 
-  @media screen and (max-width: 1748px) {
-    background-position: -170px center;
-  }
-  @media screen and (max-width: 1654px) {
-    background-position: -220px center;
-  }
-  @media screen and (max-width: 1604px) {
-    background-position: -260px center;
-  }
-  @media screen and (max-width: 1562px) {
-    background-position: -280px center;
-  }
-  @media screen and (max-width: 1550px) {
-    background-position: -390px center;
-  }
-  @media screen and (max-width: 1400px) {
-    background-position: -420px center;
-  }
   @media screen and (max-width: 768px) {
     background-position: 0px center;
     background-image: url('/static/images/hero/bg_mobile.png');
@@ -69,7 +49,7 @@ export const Headline = styled.h3`
   text-transform: uppercase;
   font-size: 18px;
   letter-spacing: 2px;
-  transform: translateX(20px);
+  /* transform: translateX(20px); */
   /* Fallback: Set a background color. */
   background-color: gold;
   /* Create the gradient. */
@@ -85,23 +65,18 @@ export const Headline = styled.h3`
   -moz-text-fill-color: transparent;
   @media screen and (max-width: 1550px) {
     font-size: 16px;
-    transform: translateX(10px);
   }
   @media screen and (max-width: 1400px) {
     font-size: 14px;
-    transform: translateX(5px);
   }
   @media screen and (max-width: 768px) {
     font-size: 18px;
-    transform: translateX(20px);
   }
   @media screen and (max-width: 480px) {
     font-size: 14px;
-    transform: translateX(10px);
   }
   @media screen and (max-width: 320px) {
     font-size: 12px;
-    transform: translate(10px, -5px);
   }
   > span {
     font-size: 20px;
@@ -268,5 +243,18 @@ export const Buttons = styled.div`
       cursor: pointer;
       transform: translateY(-4px);
     }
+  }
+`;
+
+export const Supporters = styled.div`
+  transform: translateY(75px);
+  > h3 {
+    margin-bottom: 2rem;
+  }
+  > div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 45px;
   }
 `;

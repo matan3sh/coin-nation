@@ -6,6 +6,7 @@ import {
   Year,
   Text,
   Buttons,
+  Supporters,
 } from './styles';
 
 const Hero = () => {
@@ -29,10 +30,33 @@ const Hero = () => {
             Sign up now
           </a>
           <a href='/#'>
-            <img src='/static/images/hero/discord.png' alt='discord' /> Join
-            Discord
+            <img src='/static/images/hero/discord.png' alt='' />
+            Join Discord
           </a>
         </Buttons>
+        <Supporters>
+          <h3>Our Partners</h3>
+          <div>
+            <img
+              src='/static/images/supporters/jnext-logo.png'
+              alt='discord'
+              width='188'
+              height='123'
+            />
+            <img
+              src='/static/images/supporters/jvp-logo.png'
+              alt='discord'
+              width='112'
+              height='51'
+            />
+            <img
+              src='/static/images/supporters/leumitech-logo.png'
+              alt='discord'
+              width='188'
+              height='37'
+            />
+          </div>
+        </Supporters>
       </Wrapper>
     </Container>
   );

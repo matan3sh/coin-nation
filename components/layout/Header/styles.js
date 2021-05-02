@@ -5,8 +5,13 @@ export const NavContainer = styled.header`
   position: fixed;
   width: 100%;
   display: flex;
-  max-width: 1670px;
   padding-left: 175px;
+  height: ${({ scrollNav }) => (scrollNav ? '100px' : '100px')};
+  background: ${({ scrollNav }) => (scrollNav ? '#000' : 'transparent')};
+  background: ${({ scrollNav }) =>
+    scrollNav && '0 0px 8px 0 rgba(31, 38, 135, 0.22)'};
+  transition: 0.3s ease-in;
+  z-index: 100;
   @media screen and (max-width: 1820px) {
     padding-left: 100px;
   }
@@ -38,7 +43,6 @@ export const Logo = styled.img`
   width: 353px;
   height: 148px;
   object-fit: contain;
-  transform: translateY(-5px);
   @media screen and (max-width: 935px) {
     width: 293px;
     height: 88px;
@@ -54,6 +58,7 @@ export const NavLinks = styled.div`
   gap: 75px;
   font-family: 'CircularStd-Regular';
   font-size: 18px;
+  padding-top: 10px;
   @media screen and (max-width: 1684px) {
     padding-right: 75px;
   }
@@ -69,18 +74,25 @@ export const NavLinks = styled.div`
   @media screen and (max-width: 815px) {
     font-size: 16px;
   }
-  @media screen and (max-width: 778px) {
+  @media screen and (max-width: 829px) {
     display: none;
   }
 `;
 
-export const NavLink = styled.a``;
+export const NavLink = styled.a`
+  transition: 0.3s ease-in;
+  &:hover {
+    transform: translateY(-4px);
+    cursor: pointer;
+  }
+`;
 
 export const NavButton = styled.a`
   border: 1px #ccc solid;
   padding: 10px 20px;
   border-radius: 20px;
   transition: all 0.3s;
+  margin-right: 25px;
   &:hover {
     cursor: pointer;
     background: linear-gradient(45deg, #f3ec78, #af4261);
@@ -92,7 +104,7 @@ export const MenuBars = styled(MenuIcon)`
   display: none !important;
   cursor: pointer;
 
-  @media screen and (max-width: 778px) {
+  @media screen and (max-width: 829px) {
     display: block !important;
     transform: translate(-30px, -3px);
   }
