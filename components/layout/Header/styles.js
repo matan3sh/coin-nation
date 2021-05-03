@@ -7,7 +7,10 @@ export const NavContainer = styled.header`
   display: flex;
   padding-left: 175px;
   height: ${({ scrollNav }) => (scrollNav ? '100px' : '100px')};
-  background: ${({ scrollNav }) => (scrollNav ? '#000' : 'transparent')};
+  background: ${({ scrollNav }) =>
+    scrollNav
+      ? 'linear-gradient(304.49deg, #001443 45.38%, #000A2C 82.48%)'
+      : 'transparent'};
   background: ${({ scrollNav }) =>
     scrollNav && '0 0px 8px 0 rgba(31, 38, 135, 0.22)'};
   transition: 0.3s ease-in;
@@ -74,7 +77,7 @@ export const NavLinks = styled.div`
   @media screen and (max-width: 815px) {
     font-size: 16px;
   }
-  @media screen and (max-width: 829px) {
+  @media screen and (max-width: 860px) {
     display: none;
   }
 `;
@@ -88,14 +91,14 @@ export const NavLink = styled.a`
 `;
 
 export const NavButton = styled.a`
-  border: 1px #ccc solid;
-  padding: 10px 20px;
-  border-radius: 20px;
-  transition: all 0.3s;
+  background: linear-gradient(120deg, #ab4e88, #ce8f6b);
+  padding: 15px 20px;
+  border-radius: 35px;
+  font-size: 14px;
+  transition: 0.3s;
   margin-right: 25px;
   &:hover {
     cursor: pointer;
-    background: linear-gradient(45deg, #f3ec78, #af4261);
     transform: translateY(-2px);
   }
 `;
@@ -104,7 +107,7 @@ export const MenuBars = styled(MenuIcon)`
   display: none !important;
   cursor: pointer;
 
-  @media screen and (max-width: 829px) {
+  @media screen and (max-width: 860px) {
     display: block !important;
     transform: translate(-30px, -3px);
   }

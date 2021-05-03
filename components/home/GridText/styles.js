@@ -8,6 +8,7 @@ export const Container = styled.div`
   margin: auto;
   background: #fff;
   > h1 {
+    font-family: 'CircularStd-Bold';
     color: #2f154a;
     margin-top: 5rem;
     font-size: 50px;
@@ -49,7 +50,8 @@ export const List = styled.div`
     }
     > h2 {
       font-size: 21px;
-      margin: 0;
+      margin: 5px 0;
+      color: #000;
     }
     > h3 {
       font-size: 15px;

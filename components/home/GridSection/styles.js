@@ -8,6 +8,7 @@ export const Container = styled.div`
   flex-direction: column;
   background: #fff;
   > h1 {
+    font-family: 'CircularStd-Bold';
     color: #2f154a;
     margin-top: 5rem;
     font-size: 50px;
@@ -43,9 +44,6 @@ export const List = styled.div`
   }
   > img {
     width: 200px;
-    box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1),
-      0 0 0 1px rgba(10, 10, 10, 0.02);
-    border-radius: 0.5rem;
     padding: 20px;
     min-height: 140px;
     object-fit: contain;

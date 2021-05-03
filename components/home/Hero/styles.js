@@ -22,6 +22,7 @@ export const Wrapper = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin: auto;
   padding-left: 175px;
 
   @media screen and (max-width: 1820px) {
@@ -49,7 +50,6 @@ export const Headline = styled.h3`
   text-transform: uppercase;
   font-size: 18px;
   letter-spacing: 2px;
-  /* transform: translateX(20px); */
   /* Fallback: Set a background color. */
   background-color: gold;
   /* Create the gradient. */
@@ -104,6 +104,7 @@ export const Title = styled.h1`
   display: flex;
   align-items: center;
   gap: 25px;
+  line-height: 100px;
   @media screen and (max-width: 1550px) {
     font-size: 72px;
   }
@@ -118,6 +119,7 @@ export const Title = styled.h1`
   }
   @media screen and (max-width: 590px) {
     font-size: 72px;
+    line-height: 80px;
   }
   @media screen and (max-width: 525px) {
     font-size: 62px;
@@ -181,7 +183,7 @@ export const Text = styled.p`
   font-family: 'CircularStd-Regular';
   font-size: 18px;
   line-height: 26px;
-  margin-top: 20px;
+  margin-top: 10px;
   height: 200px;
   @media screen and (max-width: 1400px) {
     font-size: 16px;
@@ -190,6 +192,7 @@ export const Text = styled.p`
   @media screen and (max-width: 768px) {
     font-size: 18px;
     line-height: 26px;
+    height: 0px;
   }
   @media screen and (max-width: 480px) {
     width: 95%;
@@ -214,14 +217,17 @@ export const Text = styled.p`
 export const Buttons = styled.div`
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 75px;
+  @media screen and (max-width: 540px) {
+    transform: translate(-30px, 100px);
+    gap: 40px;
+  }
   @media screen and (max-width: 400px) {
     gap: 45px;
   }
   @media screen and (max-width: 420px) {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 25px;
+    transform: translate(-30px, 20px);
   }
   @media screen and (max-width: 360px) {
     gap: 35px;
@@ -256,5 +262,17 @@ export const Supporters = styled.div`
     flex-wrap: wrap;
     align-items: center;
     gap: 45px;
+  }
+  @media screen and (max-width: 540px) {
+    transform: translateY(145px);
+    > div {
+      > img {
+        width: 75px;
+        height: 40px;
+      }
+    }
+  }
+  @media screen and (max-width: 4200px) {
+    transform: translateY(75px);
   }
 `;

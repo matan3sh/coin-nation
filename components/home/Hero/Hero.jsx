@@ -11,7 +11,7 @@ import {
 
 const Hero = () => {
   return (
-    <Container>
+    <Container id='Hero'>
       <Wrapper>
         <Headline>
           <span>2021</span> Top Summit

@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-  height: 100vh;
+  height: 98vh;
   width: 100%;
   background-repeat: no-repeat;
   background-position: center center;

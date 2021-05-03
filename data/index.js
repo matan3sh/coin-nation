@@ -49,40 +49,6 @@ export const ourSupportersData = [
   '/images/our_supporters/WS-Logo_Black.png',
 ];
 
-export const ourJudges = [
-  {
-    name: 'Eduard Fabian',
-    image: '/images/our_judges/eduard.jpg',
-    role: 'Chief Technology Officer/VP, Razer Fintech',
-  },
-  {
-    name: 'Dovi Frances',
-    image: '/images/our_judges/dovi.jpg',
-    role: 'Founding Partner, Group 11',
-  },
-  {
-    name: 'Dorel Blitz',
-    image: '/images/our_judges/dorel.jpg',
-    role: 'VP Strategy & Business Development, Personetics',
-  },
-  {
-    name: 'Christian Kunz',
-    image: '/images/our_judges/christian.jpg',
-    role: 'Head of Group Strategy and Innovation, DIFC Authority (UAE)',
-  },
-  {
-    name: 'Aleksei Akimov',
-    image: '/images/our_judges/alekesi.jpg',
-    role: 'Head of API, Adyen',
-  },
-  {
-    name: 'Hadar Shor',
-    image: '/images/our_judges/hadar.jpg',
-    role:
-      'Director of the India, Africa and Middle East department Foreign Trade Administration, Israel Ministry of Economy and Industry',
-  },
-];
-
 export const ourSpeakersData = [
   {
     name: 'Hakan Eroglu',
@@ -125,4 +91,10 @@ export const ourTeamData = [
       '/images/our_team/136158881_872894413470639_7092431772786744317_n.jpg',
     role: 'Hackathon Manager',
   },
+];
+
+export const headerLinks = [
+  { title: 'Partners', link: '#Partners' },
+  { title: 'Supporters', link: '#Supporters' },
+  { title: 'Speakers', link: '#Speakers' },
 ];

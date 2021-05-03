@@ -1,4 +1,6 @@
 import { useState, useEffect } from 'react';
+import DropDown from '../DropDown/DropDown';
+import { headerLinks } from 'data';
 import {
   NavContainer,
   NavWrapper,
@@ -10,6 +12,9 @@ import {
 } from './styles';
 
 const Header = () => {
+  const [isOpen, setIsOpen] = useState(false);
+  const toggle = () => setIsOpen((prev) => !prev);
+
   const [scrollNav, setScrollNav] = useState(false);
 
   const navOnScroll = () => {
@@ -27,19 +32,25 @@ const Header = () => {
   }, []);
 
   return (
-    <NavContainer scrollNav={scrollNav}>
-      <NavWrapper>
-        <Logo src='/static/images/header/logo.png' alt='logo' />
-        <NavLinks>
-          <NavLink>About</NavLink>
-          <NavLink href='#Partners'>Partners</NavLink>
-          <NavLink>Company</NavLink>
-          <NavLink>Join</NavLink>
-          <NavButton>Get Started</NavButton>
-        </NavLinks>
-        <MenuBars />
-      </NavWrapper>
-    </NavContainer>
+    <>
+      <DropDown isOpen={isOpen} toggle={toggle} data={headerLinks} />
+      <NavContainer scrollNav={scrollNav}>
+        <NavWrapper>
+          <a href='#Hero'>
+            <Logo src='/static/images/header/logo.png' alt='logo' />
+          </a>
+          <NavLinks>
+            {headerLinks.map((link, key) => (
+              <div key={key}>
+                <NavLink href={link.link}>{link.title}</NavLink>
+              </div>
+            ))}
+            <NavButton>Get Started</NavButton>
+          </NavLinks>
+          <MenuBars onClick={toggle} />
+        </NavWrapper>
+      </NavContainer>
+    </>
   );
 };
 

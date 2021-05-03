@@ -7,7 +7,6 @@ import {
   aspect,
   ourPartnersData,
   ourSupportersData,
-  ourJudges,
   ourSpeakersData,
   ourTeamData,
 } from 'data';
@@ -18,15 +17,18 @@ const Home = () => {
       <Header />
       <Hero />
       <Section data={about} />
-      <Section data={invite} />
-      <Section data={aspect} />
       <GridSection
         data={ourPartnersData}
         title='Our Partners'
         link='Partners'
       />
-      <GridSection data={ourSupportersData} title='Our Supporters' />
-      <GridText title='Our Judges' data={ourJudges} link='Judges' />
+      <Section data={invite} />
+      <GridSection
+        data={ourSupportersData}
+        title='Our Supporters'
+        link='Supporters'
+      />
+      <Section data={aspect} />
       <GridText title='Our Speakers' data={ourSpeakersData} link='Speakers' />
       <GridText title='Our Team' data={ourTeamData} link='Team' />
       <Footer />
