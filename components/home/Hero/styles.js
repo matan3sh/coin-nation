@@ -217,10 +217,10 @@ export const Text = styled.p`
 export const Buttons = styled.div`
   display: flex;
   align-items: center;
-  justify-content: center;
   gap: 75px;
   @media screen and (max-width: 540px) {
     transform: translate(-30px, 100px);
+    justify-content: center;
     gap: 40px;
   }
   @media screen and (max-width: 400px) {
@@ -272,7 +272,7 @@ export const Supporters = styled.div`
       }
     }
   }
-  @media screen and (max-width: 4200px) {
-    transform: translateY(75px);
+  @media screen and (max-width: 420px) {
+    transform: translateY(95px);
   }
 `;
