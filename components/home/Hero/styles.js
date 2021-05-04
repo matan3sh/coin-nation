@@ -184,7 +184,11 @@ export const Text = styled.p`
   font-size: 18px;
   line-height: 26px;
   margin-top: 10px;
-  height: 200px;
+  height: 150px;
+  @media screen and (max-height: 815px) {
+    height: 50px;
+  }
+
   @media screen and (max-width: 1400px) {
     font-size: 16px;
     line-height: 21px;
@@ -218,6 +222,12 @@ export const Buttons = styled.div`
   display: flex;
   align-items: center;
   gap: 75px;
+  @media screen and (max-height: 815px) {
+    transform: translate(10px, 50px);
+  }
+  @media screen and (max-width: 768px) {
+    transform: translate(-0px, 100px);
+  }
   @media screen and (max-width: 540px) {
     transform: translate(-30px, 100px);
     justify-content: center;
@@ -262,6 +272,15 @@ export const Supporters = styled.div`
     flex-wrap: wrap;
     align-items: center;
     gap: 45px;
+  }
+  @media screen and (max-height: 815px) {
+    transform: translateY(125px);
+  }
+  @media screen and (max-height: 716px) {
+    transform: translateY(90px);
+  }
+  @media screen and (max-width: 768px) {
+    transform: translateY(150px);
   }
   @media screen and (max-width: 540px) {
     transform: translateY(145px);
