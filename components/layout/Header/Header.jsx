@@ -45,7 +45,13 @@ const Header = () => {
                 <NavLink href={link.link}>{link.title}</NavLink>
               </div>
             ))}
-            <NavButton>Get Started</NavButton>
+            <NavButton
+              href='mailto:nirkouris@gmail.com'
+              target='_blank'
+              rel='noopener noreferrer'
+            >
+              Contact Us
+            </NavButton>
           </NavLinks>
           <MenuBars onClick={toggle} />
         </NavWrapper>

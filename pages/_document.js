@@ -37,7 +37,7 @@ export default class MyDocument extends Document {
             itemprop='description'
             content='This Is The New Coin Nations Economy. We’re bringing creators, crypto natives and new coin possibilies together to move the future forward.'
           />
-          <meta itemprop='image' content='/static/images/metadata_img.png' />
+          <meta itemProp='image' content='/static/images/metadata_img.png' />
 
           <meta property='og:url' content='https://coinnations.com' />
           <meta property='og:type' content='website' />

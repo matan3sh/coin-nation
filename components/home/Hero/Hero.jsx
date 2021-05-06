@@ -29,7 +29,11 @@ const Hero = () => {
           <a href='/#' className='color-btn'>
             Sign up now
           </a>
-          <a href='/#'>
+          <a
+            href='https://discord.gg/fUaJesQkFb'
+            target='_blank'
+            rel='noopener noreferrer'
+          >
             <img src='/static/images/hero/discord.png' alt='' />
             Join Discord
           </a>
@@ -38,21 +42,21 @@ const Hero = () => {
           <h3>Our Partners</h3>
           <div>
             <img
-              src='/static/images/supporters/jnext-logo.png'
+              src='/static/images/supporters/Kraken.png'
               alt='discord'
               width='188'
-              height='123'
+              height='105'
             />
             <img
-              src='/static/images/supporters/jvp-logo.png'
+              src='/static/images/supporters/Circle.png'
               alt='discord'
-              width='112'
-              height='51'
+              width='150'
+              height='101'
             />
             <img
-              src='/static/images/supporters/leumitech-logo.png'
+              src='/static/images/supporters/Visa.png'
               alt='discord'
-              width='188'
+              width='142'
               height='37'
             />
           </div>
