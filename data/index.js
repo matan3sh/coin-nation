@@ -97,4 +97,7 @@ export const headerLinks = [
   { title: 'Partners', link: '#Partners' },
   { title: 'Supporters', link: '#Supporters' },
   { title: 'Speakers', link: '#Speakers' },
+  { title: 'Join Discord', link: 'https://discord.gg/fUaJesQkFb' },
+  { title: 'Sign Up', link: '' },
+  { title: 'Contact Us', link: 'mailto:nirkouris@gmail.com' },
 ];

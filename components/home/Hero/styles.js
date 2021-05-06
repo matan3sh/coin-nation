@@ -268,7 +268,6 @@ export const Supporters = styled.div`
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
     gap: 25px;
   }
   @media screen and (max-height: 815px) {
@@ -284,6 +283,7 @@ export const Supporters = styled.div`
     transform: translateY(105px);
   }
   @media screen and (max-width: 420px) {
-    transform: translateY(10px);
+    transform: translateY(30px);
+    justify-content: center;
   }
 `;

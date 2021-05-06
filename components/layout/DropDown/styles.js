@@ -42,7 +42,7 @@ export const DropDownMenu = styled.div`
   text-align: center;
 
   @media screen and (max-width: 480px) {
-    grid-template-rows: repeat(4, 60px);
+    grid-template-rows: repeat(6, 60px);
   }
 `;
 

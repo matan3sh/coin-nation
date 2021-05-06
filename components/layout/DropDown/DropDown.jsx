@@ -5,8 +5,6 @@ import {
   DropDownWrapper,
   DropDownMenu,
   DropDownLink,
-  BtnWrap,
-  Button,
 } from './styles';
 
 const DropDown = ({ toggle, isOpen, data }) => {
@@ -18,21 +16,11 @@ const DropDown = ({ toggle, isOpen, data }) => {
 
       <DropDownWrapper>
         <DropDownMenu>
-          {data.map((item, index) =>
-            index < data.length - 1 ? (
-              <DropDownLink href={item.link} key={index}>
-                {item.title}
-              </DropDownLink>
-            ) : (
-              <a href='' key={index}>
-                <BtnWrap>
-                  <Button big dropDown>
-                    {item.title}
-                  </Button>
-                </BtnWrap>
-              </a>
-            )
-          )}
+          {data.map((item, index) => (
+            <DropDownLink href={item.link} key={index}>
+              {item.title}
+            </DropDownLink>
+          ))}
         </DropDownMenu>
       </DropDownWrapper>
     </DropDownContainer>

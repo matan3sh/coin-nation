@@ -32,9 +32,9 @@ export default class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <meta itemprop='name' content='CoinNations.com' />
+          <meta itemProp='name' content='CoinNations.com' />
           <meta
-            itemprop='description'
+            itemProp='description'
             content='This Is The New Coin Nations Economy. We’re bringing creators, crypto natives and new coin possibilies together to move the future forward.'
           />
           <meta itemProp='image' content='/static/images/metadata_img.png' />
