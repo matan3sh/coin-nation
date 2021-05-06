@@ -1,3 +1,5 @@
+import Head from 'next/head';
+
 import { Hero, Section, GridSection, GridText } from 'components/home';
 import { Header, Footer } from 'components/layout';
 
@@ -14,6 +16,17 @@ import {
 const Home = () => {
   return (
     <>
+      <Head>
+        <title>Coin Nations Summit 2021</title>
+        <meta
+          name='description'
+          content='Coin Nations We’re showcasing the best crypto companies, leaders on one Coin Nations Global Summit'
+        />
+        <meta
+          name='keywords'
+          content='crypto bitcoin, ethereum, revolut, kraken, visa, circle'
+        />
+      </Head>
       <Header />
       <Hero />
       <Section data={about} />

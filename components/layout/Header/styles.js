@@ -5,8 +5,9 @@ export const NavContainer = styled.header`
   position: fixed;
   width: 100%;
   display: flex;
+  align-items: center;
   padding-left: 175px;
-  height: ${({ scrollNav }) => (scrollNav ? '100px' : '100px')};
+  height: ${({ scrollNav }) => (scrollNav ? '80px' : '100px')};
   background: ${({ scrollNav }) =>
     scrollNav
       ? 'linear-gradient(304.49deg, #001443 45.38%, #000A2C 82.48%)'
@@ -61,7 +62,7 @@ export const NavLinks = styled.div`
   gap: 75px;
   font-family: 'CircularStd-Regular';
   font-size: 18px;
-  padding-top: 10px;
+  padding-top: 0px;
   @media screen and (max-width: 1684px) {
     padding-right: 75px;
   }

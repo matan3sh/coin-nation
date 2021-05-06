@@ -174,6 +174,9 @@ export const Year = styled.h1`
     font-size: 52px;
     transform: translateY(0px);
   }
+  @media screen and (max-width: 420px) {
+    transform: translateX(10px);
+  }
   @media screen and (max-width: 320px) {
     font-size: 42px;
   }
@@ -221,32 +224,26 @@ export const Text = styled.p`
 export const Buttons = styled.div`
   display: flex;
   align-items: center;
-  gap: 75px;
+
   @media screen and (max-height: 815px) {
     transform: translate(10px, 50px);
   }
   @media screen and (max-width: 768px) {
     transform: translate(-0px, 100px);
   }
-  @media screen and (max-width: 540px) {
-    transform: translate(-30px, 100px);
-    justify-content: center;
-    gap: 40px;
-  }
-  @media screen and (max-width: 400px) {
-    gap: 45px;
-  }
   @media screen and (max-width: 420px) {
-    transform: translate(-30px, 20px);
-  }
-  @media screen and (max-width: 360px) {
-    gap: 35px;
+    transform: translate(-30px, -20px);
   }
 
   > a {
     display: flex;
     align-items: center;
     gap: 15px;
+    margin: 0 25px;
+
+    > span {
+      margin-left: 5px;
+    }
   }
 
   .color-btn {
@@ -263,7 +260,7 @@ export const Buttons = styled.div`
 `;
 
 export const Supporters = styled.div`
-  transform: translateY(75px);
+  transform: translateY(70px);
   > h3 {
     margin-bottom: 2rem;
   }
@@ -271,7 +268,8 @@ export const Supporters = styled.div`
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: 45px;
+    justify-content: center;
+    gap: 25px;
   }
   @media screen and (max-height: 815px) {
     transform: translateY(125px);
@@ -283,15 +281,9 @@ export const Supporters = styled.div`
     transform: translateY(150px);
   }
   @media screen and (max-width: 540px) {
-    transform: translateY(145px);
-    > div {
-      > img {
-        width: 75px;
-        height: 40px;
-      }
-    }
+    transform: translateY(105px);
   }
   @media screen and (max-width: 420px) {
-    transform: translateY(95px);
+    transform: translateY(10px);
   }
 `;

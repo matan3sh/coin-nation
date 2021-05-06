@@ -30,6 +30,10 @@ export const Wrapper = styled.div`
   @media screen and (max-width: 1220px) {
     padding-left: 35px;
   }
+  @media screen and (max-width: 420px) {
+    justify-content: flex-start;
+    padding-top: 25px;
+  }
   @media screen and (max-width: 400px) {
     padding-left: 15px;
   }
@@ -42,6 +46,9 @@ export const Wrapper = styled.div`
       width: 90%;
       font-size: 42px;
     }
+    @media screen and (max-width: 420px) {
+      font-size: 26px;
+    }
   }
   > p {
     font-size: 19px;
@@ -51,8 +58,8 @@ export const Wrapper = styled.div`
     width: 550px;
     @media screen and (max-width: 768px) {
       width: 90%;
-      font-size: 17px;
-      line-height: 20px;
+      font-size: 19px;
+      line-height: 22px;
     }
   }
 `;

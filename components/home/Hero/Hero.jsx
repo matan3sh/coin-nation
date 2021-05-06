@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import {
   Container,
   Wrapper,
@@ -35,29 +36,26 @@ const Hero = () => {
             rel='noopener noreferrer'
           >
             <img src='/static/images/hero/discord.png' alt='' />
-            Join Discord
+            <span>Join Discord</span>
           </a>
         </Buttons>
         <Supporters>
           <h3>Our Partners</h3>
           <div>
-            <img
+            <Image
               src='/static/images/supporters/Kraken.png'
-              alt='discord'
-              width='188'
-              height='105'
+              width={96}
+              height={54}
             />
-            <img
+            <Image
               src='/static/images/supporters/Circle.png'
-              alt='discord'
-              width='150'
-              height='101'
+              width={96}
+              height={54}
             />
-            <img
+            <Image
               src='/static/images/supporters/Visa.png'
-              alt='discord'
-              width='142'
-              height='37'
+              width={84}
+              height={26.5}
             />
           </div>
         </Supporters>

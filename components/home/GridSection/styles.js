@@ -15,6 +15,7 @@ export const Container = styled.div`
     margin-bottom: 1.5rem;
     font-weight: 900;
     @media screen and (max-width: 475px) {
+      padding-top: 25px;
       font-size: 10.6041666666666665vw;
     }
   }
