@@ -243,6 +243,9 @@ export const Buttons = styled.div`
 
     > span {
       margin-left: 5px;
+      @media screen and (max-width: 400px) {
+        font-size: 12px;
+      }
     }
   }
 
@@ -252,6 +255,9 @@ export const Buttons = styled.div`
     border-radius: 35px;
     font-size: 14px;
     transition: 0.3s;
+    @media screen and (max-width: 400px) {
+      font-size: 12px;
+    }
     &:hover {
       cursor: pointer;
       transform: translateY(-4px);
