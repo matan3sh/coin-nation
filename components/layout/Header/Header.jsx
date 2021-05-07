@@ -50,7 +50,7 @@ const Header = () => {
               target='_blank'
               rel='noopener noreferrer'
             >
-              Contact Us
+              Contact
             </NavButton>
           </NavLinks>
           <MenuBars onClick={toggle} />

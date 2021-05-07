@@ -27,7 +27,12 @@ const Hero = () => {
           <br /> possibilies together to move the future forward.
         </Text>
         <Buttons>
-          <a href='/#' className='color-btn'>
+          <a
+            href='https://forms.gle/RG1H1JY9H2EMif9a9'
+            target='_blank'
+            rel='noopener noreferrer'
+            className='color-btn'
+          >
             Sign up now
           </a>
           <a
