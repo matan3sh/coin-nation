@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import {
   Container,
   Wrapper,
@@ -47,17 +46,17 @@ const Hero = () => {
         <Supporters>
           <h3>Our Partners</h3>
           <div>
-            <Image
+            <img
               src='/static/images/supporters/Kraken.png'
               width={96}
               height={54}
             />
-            <Image
+            <img
               src='/static/images/supporters/Circle.png'
               width={96}
               height={54}
             />
-            <Image
+            <img
               src='/static/images/supporters/Visa.png'
               width={84}
               height={26.5}

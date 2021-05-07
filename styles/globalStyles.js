@@ -6,21 +6,21 @@ const GlobalStyle = createGlobalStyle`
         font-style: normal;
         font-weight: 300;
         font-display: swap;
-        src: url("/static/fonts/CircularStd-Book.ttf");
+        src: url("static/fonts/CircularStd-Book.ttf");
     }
 @font-face {
         font-family: "CircularStd-Medium";
         font-style: normal;
         font-weight: 600;
         font-display: swap;
-        src: url("/static/fonts/CircularStd-Medium.ttf");
+        src: url("static/fonts/CircularStd-Medium.ttf");
     }
 @font-face {
         font-family: "CircularStd-Bold";
         font-style: normal;
         font-weight: 700;
         font-display: swap;
-        src: url("/static/fonts/CircularStd-Bold.ttf");
+        src: url("static/fonts/CircularStd-Bold.ttf");
     }
 
 *,
