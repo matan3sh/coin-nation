@@ -99,3 +99,13 @@ export const headerLinks = [
   { title: 'Speakers', link: '#Speakers' },
   { title: 'Join Discord', link: 'https://discord.gg/fUaJesQkFb' },
 ];
+
+export const trackList = [
+  'BlockChain',
+  'NFT',
+  'Crypto',
+  'DeFi',
+  'CDBC',
+  'E-Wallets',
+  'Blockchain for Good',
+];

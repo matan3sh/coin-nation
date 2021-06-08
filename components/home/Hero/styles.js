@@ -293,3 +293,5 @@ export const Supporters = styled.div`
     justify-content: center;
   }
 `;
+
+export const Date = styled.h1``;

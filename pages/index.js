@@ -1,6 +1,14 @@
 import Head from 'next/head';
 
-import { Hero, Section, GridSection, GridText } from 'components/home';
+import {
+  Hero,
+  Section,
+  GridSection,
+  GridText,
+  About,
+  GiftCard,
+  TrackList,
+} from 'components/home';
 import { Header, Footer } from 'components/layout';
 
 import {
@@ -11,6 +19,7 @@ import {
   ourSupportersData,
   ourSpeakersData,
   ourTeamData,
+  trackList,
 } from 'data';
 
 const Home = () => {
@@ -30,6 +39,7 @@ const Home = () => {
       <Header />
       <Hero />
       <Section data={about} />
+      <About />
       <GridSection
         data={ourPartnersData}
         title='Our Partners'
@@ -41,7 +51,9 @@ const Home = () => {
         title='Our Supporters'
         link='Supporters'
       />
+      <TrackList data={trackList} />
       <Section data={aspect} />
+      <GiftCard />
       <GridText title='Our Speakers' data={ourSpeakersData} link='Speakers' />
       <GridText title='Our Team' data={ourTeamData} link='Team' />
       <Footer />

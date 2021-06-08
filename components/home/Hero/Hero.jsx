@@ -7,6 +7,7 @@ import {
   Text,
   Buttons,
   Supporters,
+  Date,
 } from './styles';
 
 const Hero = () => {
@@ -14,7 +15,7 @@ const Hero = () => {
     <Container id='Hero'>
       <Wrapper>
         <Headline>
-          <span>2021</span> Top Summit
+          <span>2021</span> Top Summit{' '}
         </Headline>
         <Title>Coin Nations</Title>
         <Title>
