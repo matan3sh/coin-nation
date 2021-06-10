@@ -52,8 +52,8 @@ const Home = () => {
         link='Supporters'
       />
       <TrackList data={trackList} />
-      <Section data={aspect} />
       <GiftCard />
+      <Section data={aspect} />
       <GridText title='Our Speakers' data={ourSpeakersData} link='Speakers' />
       <GridText title='Our Team' data={ourTeamData} link='Team' />
       <Footer />

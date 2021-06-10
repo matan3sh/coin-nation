@@ -51,19 +51,14 @@ export const ourSupportersData = [
 
 export const ourSpeakersData = [
   {
-    name: 'Hakan Eroglu',
-    image: '/images/our_speakers/hakan.jpg',
-    role: 'Global Open Banking Lead, Advisors at Mastercard',
+    name: 'Dr. Oriol Caudevilla',
+    image: '/images/our_speakers/oriol.jpg',
+    role: 'Management and Strategy Consultant, FinTech Advisor',
   },
   {
-    name: 'Michael Eisenberg',
-    image: '/images/our_speakers/micheal.jpg',
-    role: 'Co-Founder & Equal Partner, Aleph',
-  },
-  {
-    name: 'Sabah Al-Binali',
-    image: '/images/our_speakers/sabah.jpg',
-    role: 'Partner and Head of Gulf. OurCrowd',
+    name: 'Helene Podsadni Nilsson',
+    image: '/images/our_speakers/helene.png',
+    role: 'Head of Fintechs, Nordics & Baltics, Visa',
   },
   {
     name: 'Roberto Croci',
@@ -77,7 +72,7 @@ export const ourTeamData = [
     name: 'Nir Kouris',
     image:
       '/images/our_team/136333043_684932272198707_4010410310317845982_n.jpg',
-    role: 'Co-Founder of Fintech Nations',
+    role: 'Founder of Coin Nations',
   },
   {
     name: 'Jon Kingsley',

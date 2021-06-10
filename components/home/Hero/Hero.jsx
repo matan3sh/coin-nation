@@ -22,7 +22,8 @@ const Hero = () => {
           Summit <Year>2021</Year>
         </Title>
         <Text>
-          This Is The New Coin Nations Economy. <br />
+          {/* This Is The New Coin Nations Economy. <br /> */}
+          September 1-12, Global Summit & Hackathon <br />
           We’re bringing creators, crypto natives and new coin
           <br /> possibilies together to move the future forward.
         </Text>
