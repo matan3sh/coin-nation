@@ -65,6 +65,31 @@ export const ourSpeakersData = [
     image: '/images/our_speakers/roberrto.jpg',
     role: 'Managing Director, Microsoft for Startups MEA',
   },
+  {
+    name: 'Kylin Kalani',
+    image: '/images/our_speakers/Kylin_Kalani.png',
+    role: 'Leading NFT Model and Actress',
+  },
+  {
+    name: 'Ziv Keinan',
+    image: '/images/our_speakers/Ziv_Keinan.png',
+    role: 'Co-Founder and CEO, Simetria',
+  },
+  {
+    name: 'Alex Adelman',
+    image: '/images/our_speakers/Alex_Adelman.png',
+    role: 'CEO and Co-founder Lolli',
+  },
+  {
+    name: 'Joshua Johnson',
+    image: '/images/our_speakers/Joshua_Johnson.png',
+    role: 'Founder and CEO Financial InterNetWork',
+  },
+  {
+    name: 'Joseph Langenbrunner',
+    image: '/images/our_speakers/Joseph_Langenbrunner.png',
+    role: 'Deputy Head of Mission to The United States of America for The Republic of Liberland',
+  },
 ];
 
 export const ourTeamData = [
@@ -85,6 +110,16 @@ export const ourTeamData = [
     image:
       '/images/our_team/136158881_872894413470639_7092431772786744317_n.jpg',
     role: 'Hackathon Manager',
+  },
+  {
+    name: 'Matan Shaviro',
+    image: '/images/our_team/Matan_Shaviro.png',
+    role: 'Full Stack Developer - Coin Nations',
+  },
+  {
+    name: 'Ivan Sangueza Alarcon',
+    image: '/images/our_team/Ivan.png',
+    role: 'Video Manager - Coin Nations',
   },
 ];
 
