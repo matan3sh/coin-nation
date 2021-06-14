@@ -9,6 +9,7 @@ export const Container = styled.section`
   background-position: center center;
   color: #fff;
   background-size: cover;
+  overflow-x: hidden;
 
   @media screen and (max-width: 768px) {
     background-position: 0px center;
@@ -266,9 +267,9 @@ export const Buttons = styled.div`
 `;
 
 export const Supporters = styled.div`
-  transform: translateY(70px);
+  transform: translate(40px, 50px);
   > h3 {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
   > div {
     display: flex;

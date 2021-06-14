@@ -29,7 +29,6 @@ const GlobalStyle = createGlobalStyle`
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  scroll-padding-top: 80px
 }
 
 html,

@@ -38,7 +38,7 @@ export const ourSupportersData = [
   '/images/our_supporters/2020_01_21_logo_dateio_1124x800.jpg',
   '/images/our_supporters/118617057_1679329048882841_4145009900250462274_n.jpg',
   '/images/our_supporters/City-TLV-29c_5-for-print-7.10.13.png',
-  '/images/our_supporters/cropped-logo_final.png',
+  '/images/our_supporters/simetria.io.png',
   '/images/our_supporters/EN_Logo3.png',
   '/images/our_supporters/everlyeu-1.png',
   '/images/our_supporters/FF_LogoFinal_Black5-optimized.png',
@@ -98,12 +98,6 @@ export const ourTeamData = [
     image:
       '/images/our_team/136333043_684932272198707_4010410310317845982_n.jpg',
     role: 'Founder of Coin Nations',
-  },
-  {
-    name: 'Jon Kingsley',
-    image:
-      '/images/our_team/136631984_767538940808784_5869202144609529795_n.jpg',
-    role: 'Co-Founder of Fintech Nations',
   },
   {
     name: 'Ignacio Agramont',

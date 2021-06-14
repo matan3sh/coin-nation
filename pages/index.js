@@ -8,6 +8,7 @@ import {
   About,
   GiftCard,
   TrackList,
+  Agenda,
 } from 'components/home';
 import { Header, Footer } from 'components/layout';
 
@@ -39,7 +40,6 @@ const Home = () => {
       <Header />
       <Hero />
       <Section data={about} />
-      <About />
       <GridSection
         data={ourPartnersData}
         title='Our Partners'
@@ -51,6 +51,8 @@ const Home = () => {
         title='Our Supporters'
         link='Supporters'
       />
+      <About />
+      <Agenda />
       <TrackList data={trackList} />
       <GiftCard />
       <Section data={aspect} />
