@@ -5,8 +5,8 @@ const TrackList = ({ data }) => {
     <Container>
       <h2>The Tracklist</h2>
       <Wrapper>
-        {data.map((item) => (
-          <Card>
+        {data.map((item, key) => (
+          <Card key={key}>
             <h3>{item}</h3>
             <h5>Share your ideas and find your Team on Discord</h5>
           </Card>
