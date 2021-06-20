@@ -42,13 +42,13 @@ const Home = () => {
       <Section data={about} />
       <GridSection
         data={ourPartnersData}
-        title='Our Partners'
+        title='Past Partners'
         link='Partners'
       />
       <Section data={invite} />
       <GridSection
         data={ourSupportersData}
-        title='Our Supporters'
+        title='Past Supporters'
         link='Supporters'
       />
       <About />
