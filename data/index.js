@@ -90,6 +90,21 @@ export const ourSpeakersData = [
     image: '/images/our_speakers/Joseph_Langenbrunner.png',
     role: 'Deputy Head of Mission to The United States of America for The Republic of Liberland',
   },
+  {
+    name: 'Kirsten Collins',
+    image: '/images/our_speakers/Kirsten_Collins.png',
+    role: 'NFT Artist, Music Artist, Singer Song-Writer, Social Media Influencer, Actress, Model',
+  },
+  {
+    name: 'Yael Tamar',
+    image: '/images/our_speakers/Yael_Tamar.png',
+    role: 'Co-CEO and Co-founder SolidBlock',
+  },
+  {
+    name: 'Ilan Steiner',
+    image: '/images/our_speakers/Ilan_Steiner.png',
+    role: 'COO Simetria',
+  },
 ];
 
 export const ourTeamData = [
