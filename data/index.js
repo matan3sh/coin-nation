@@ -149,7 +149,7 @@ export const trackList = [
   'NFT',
   'Crypto',
   'DeFi',
-  'CDBC',
+  'CBDCs',
   'E-Wallets',
   'Blockchain for Good',
 ];
