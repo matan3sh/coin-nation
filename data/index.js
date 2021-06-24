@@ -35,7 +35,6 @@ export const ourPartnersData = [
 ];
 
 export const ourSupportersData = [
-  '/images/our_supporters/2020_01_21_logo_dateio_1124x800.jpg',
   '/images/our_supporters/118617057_1679329048882841_4145009900250462274_n.jpg',
   '/images/our_supporters/City-TLV-29c_5-for-print-7.10.13.png',
   '/images/our_supporters/simetria.io.png',
@@ -47,6 +46,7 @@ export const ourSupportersData = [
   '/images/our_supporters/sync.-logo.png',
   '/images/our_supporters/visa.png',
   '/images/our_supporters/WS-Logo_Black.png',
+  '/images/our_supporters/Aleph.png',
 ];
 
 export const ourSpeakersData = [
@@ -104,6 +104,11 @@ export const ourSpeakersData = [
     name: 'Ilan Steiner',
     image: '/images/our_speakers/Ilan_Steiner.png',
     role: 'COO Simetria',
+  },
+  {
+    name: 'Michael Eisenberg',
+    image: '/images/our_speakers/Michael.png',
+    role: 'Co-Founder & Equal Partner, Aleph',
   },
 ];
 
