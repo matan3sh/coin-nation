@@ -36,7 +36,7 @@ export const ourPartnersData = [
 
 export const ourSupportersData = [
   '/images/our_supporters/118617057_1679329048882841_4145009900250462274_n.jpg',
-  '/images/our_supporters/City-TLV-29c_5-for-print-7.10.13.png',
+  '/images/our_supporters/celsius.png',
   '/images/our_supporters/simetria.io.png',
   '/images/our_supporters/EN_Logo3.png',
   '/images/our_supporters/everlyeu-1.png',
@@ -50,6 +50,21 @@ export const ourSupportersData = [
 ];
 
 export const ourSpeakersData = [
+  {
+    name: 'Peter McCormack',
+    image: '/images/our_speakers/Peter_McCormack.png',
+    role: 'Host of What Bitcoin Did',
+  },
+  {
+    name: 'Alex Mashinsky',
+    image: '/images/our_speakers/Alex_Mashinsky.png',
+    role: 'Founder and CEO, Celsius',
+  },
+  {
+    name: 'Lou Kerner',
+    image: '/images/our_speakers/Lou.png',
+    role: 'Partner, Blockchain Coinvestors',
+  },
   {
     name: 'Dr. Oriol Caudevilla',
     image: '/images/our_speakers/oriol.jpg',
@@ -109,6 +124,11 @@ export const ourSpeakersData = [
     name: 'Michael Eisenberg',
     image: '/images/our_speakers/Michael.png',
     role: 'Co-Founder & Equal Partner, Aleph',
+  },
+  {
+    name: 'Richie Santosdiaz',
+    image: '/images/our_speakers/Richie_Santosdiaz.png',
+    role: 'Economic Development Advisor - Head of MEA - The Fintech Times & Fintech Power 50',
   },
 ];
 
