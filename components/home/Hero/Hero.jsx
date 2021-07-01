@@ -29,7 +29,7 @@ const Hero = () => {
         </Text>
         <Buttons>
           <a
-            href='https://forms.gle/RG1H1JY9H2EMif9a9'
+            href='https://next.brella.io/join/CoinNations2021'
             target='_blank'
             rel='noopener noreferrer'
             className='color-btn'
