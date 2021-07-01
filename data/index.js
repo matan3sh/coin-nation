@@ -132,6 +132,11 @@ export const ourSpeakersData = [
     image: '/images/our_speakers/Richie_Santosdiaz.png',
     role: 'Economic Development Advisor - Head of MEA - The Fintech Times & Fintech Power 50',
   },
+  {
+    name: 'Yonat Vaks',
+    image: '/images/our_speakers/Yonat_Vaks.png',
+    role: 'Cryptoartist',
+  },
 ];
 
 export const ourTeamData = [
