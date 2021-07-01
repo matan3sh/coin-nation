@@ -39,7 +39,7 @@ export const ourSupportersData = [
   '/images/our_supporters/celsius.png',
   '/images/our_supporters/simetria.io.png',
   '/images/our_supporters/CM_Logo.png',
-  '/images/our_supporters/EN_Logo3.png',
+  '/images/our_supporters/BCB-GROUP-LOGO-BLUE-RGB.png',
   '/images/our_supporters/Blockchain_BLUE_BG.png',
   '/images/our_supporters/everlyeu-1.png',
   '/images/our_supporters/FF_LogoFinal_Black5-optimized.png',
