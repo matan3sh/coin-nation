@@ -35,13 +35,14 @@ export const ourPartnersData = [
 ];
 
 export const ourSupportersData = [
+  '/images/our_supporters/MoonWhiteOnBlackSquare.png',
   '/images/our_supporters/118617057_1679329048882841_4145009900250462274_n.jpg',
   '/images/our_supporters/celsius.png',
   '/images/our_supporters/simetria.io.png',
   '/images/our_supporters/CM_Logo.png',
   '/images/our_supporters/BCB-GROUP-LOGO-BLUE-RGB.png',
   '/images/our_supporters/Blockchain_BLUE_BG.png',
-  '/images/our_supporters/everlyeu-1.png',
+  '/images/our_supporters/WBD_Black.png',
   '/images/our_supporters/FF_LogoFinal_Black5-optimized.png',
   '/images/our_supporters/LOGONE2.jpeg',
   '/images/our_supporters/NAG-Logotype-Horizontal@1x.png',
@@ -52,6 +53,16 @@ export const ourSupportersData = [
 ];
 
 export const ourSpeakersData = [
+  {
+    name: 'Chris Aruliah',
+    image: '/images/our_speakers/Chris_Aruliah.png',
+    role: 'Chief Product Officer - BCB Group',
+  },
+  {
+    name: 'Ken Kruger',
+    image: '/images/our_speakers/Ken_Kruger.png',
+    role: 'Founder & CEO - Moon',
+  },
   {
     name: 'Peter McCormack',
     image: '/images/our_speakers/Peter_McCormack.png',
@@ -136,6 +147,11 @@ export const ourSpeakersData = [
     name: 'Yonat Vaks',
     image: '/images/our_speakers/Yonat_Vaks.png',
     role: 'Cryptoartist',
+  },
+  {
+    name: 'Nikola Plecas',
+    image: '/images/our_speakers/Nikola_Plecas.png',
+    role: 'Head of New Payment Flows Practice, VCA Europe',
   },
 ];
 
