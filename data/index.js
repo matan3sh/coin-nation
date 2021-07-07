@@ -50,6 +50,8 @@ export const ourSupportersData = [
   '/images/our_supporters/visa.png',
   '/images/our_supporters/WS-Logo_Black.png',
   '/images/our_supporters/Aleph.png',
+  '/images/our_supporters/ZenGo_Logo.png',
+  '/images/our_supporters/Simplex_logo.png',
 ];
 
 export const ourSpeakersData = [
@@ -152,6 +154,16 @@ export const ourSpeakersData = [
     name: 'Nikola Plecas',
     image: '/images/our_speakers/Nikola_Plecas.png',
     role: 'Head of New Payment Flows Practice, VCA Europe',
+  },
+  {
+    name: 'Nimrod Lehavi',
+    image: '/images/our_speakers/Nimrod_Lehavi.png',
+    role: 'Co-founder and CEO - Simplex',
+  },
+  {
+    name: 'Ouriel Ohayon',
+    image: '/images/our_speakers/Ouriel_Ohayon.png',
+    role: 'CEO, Co-Founder - ZenGo',
   },
 ];
 
