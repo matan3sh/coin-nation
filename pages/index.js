@@ -39,24 +39,24 @@ const Home = () => {
       </Head>
       <Header />
       <Hero />
-      <Section data={about} />
       <GridSection
+        data={ourSupportersData}
+        title='Supporters'
+        link='Supporters'
+      />
+      <Section data={about} />
+      {/* <GridSection
         data={ourPartnersData}
         title='Past Partners'
         link='Partners'
-      />
+      /> */}
+      <GridText title='Our Speakers' data={ourSpeakersData} link='Speakers' />
       <Section data={invite} />
-      <GridSection
-        data={ourSupportersData}
-        title='Past Supporters'
-        link='Supporters'
-      />
       <About />
       <Agenda />
       <TrackList data={trackList} />
-      <GiftCard />
       <Section data={aspect} />
-      <GridText title='Our Speakers' data={ourSpeakersData} link='Speakers' />
+      {/* <GiftCard /> */}
       <GridText title='Our Team' data={ourTeamData} link='Team' />
       <Footer />
     </>

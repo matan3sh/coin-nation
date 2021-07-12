@@ -31,7 +31,7 @@ export const ourPartnersData = [
   '/images/our_partners/121623007_403125854420377_6033313637829888335_n.jpg',
   '/images/our_partners/Tipalti-Color_Tipalti_Wordmark_Registered-MC-D.jpg',
   '/images/our_partners/MSStartups_wordmark-Bold-black-2048x223-1.png',
-  '/images/our_partners/121688276_344435953540950_4122231819403473055_n.jpg',
+  '/images/our_partners/visa.png',
 ];
 
 export const ourSupportersData = [
@@ -44,11 +44,6 @@ export const ourSupportersData = [
   '/images/our_supporters/Blockchain_BLUE_BG.png',
   '/images/our_supporters/WBD_Black.png',
   '/images/our_supporters/FF_LogoFinal_Black5-optimized.png',
-  '/images/our_supporters/LOGONE2.jpeg',
-  '/images/our_supporters/NAG-Logotype-Horizontal@1x.png',
-  '/images/our_supporters/sync.-logo.png',
-  '/images/our_supporters/visa.png',
-  '/images/our_supporters/WS-Logo_Black.png',
   '/images/our_supporters/Aleph.png',
   '/images/our_supporters/ZenGo_Logo.png',
   '/images/our_supporters/Simplex_logo.png',

@@ -48,11 +48,11 @@ const Hero = () => {
         <Supporters>
           <h3>Our Partners</h3>
           <div>
-            <img
+            {/* <img
               src='/static/images/supporters/Kraken.png'
               width={96}
               height={54}
-            />
+            /> */}
             <img
               src='/static/images/supporters/Circle.png'
               width={96}
