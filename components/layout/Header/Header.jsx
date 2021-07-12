@@ -46,11 +46,11 @@ const Header = () => {
               </div>
             ))}
             <NavButton
-              href='mailto:nirkouris@gmail.com'
+              href='https://next.brella.io/join/CoinNations2021'
               target='_blank'
               rel='noopener noreferrer'
             >
-              Contact
+              Sign up
             </NavButton>
           </NavLinks>
           <MenuBars onClick={toggle} />

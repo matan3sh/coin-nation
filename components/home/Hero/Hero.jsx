@@ -23,9 +23,9 @@ const Hero = () => {
         </Title>
         <Text>
           {/* This Is The New Coin Nations Economy. <br /> */}
-          September 29-30, 2021 Virtual Global Summit <br />
+          September 29-30, 2021 Virtual Global Summit. <br />
           We’re bringing creators, crypto natives and new coin
-          <br /> possibilies together to move the future forward.
+          <br /> possibilities together to move the future forward.
         </Text>
         <Buttons>
           <a
