@@ -34,12 +34,17 @@ export const Row = styled.div`
     border: 1px #fff solid;
     border-radius: 6px;
     padding: 7.5px 15px;
+    color: #fff;
+
     &::placeholder {
       color: #fff;
     }
   }
 
   textarea {
+    font-family: 'CircularStd-Regular', sans-serif !important;
+    color: #fff;
+
     width: 100%;
     background: linear-gradient(304.49deg, #001443 45.38%, #000a2c 82.48%);
     border: 1px #fff solid;
