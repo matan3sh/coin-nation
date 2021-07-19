@@ -9,6 +9,7 @@ import {
   GiftCard,
   TrackList,
   Agenda,
+  Contact,
 } from 'components/home';
 import { Header, Footer } from 'components/layout';
 
@@ -58,6 +59,7 @@ const Home = () => {
       <Section data={aspect} />
       {/* <GiftCard /> */}
       <GridText title='Our Team' data={ourTeamData} link='Team' />
+      <Contact />
       <Footer />
     </>
   );
