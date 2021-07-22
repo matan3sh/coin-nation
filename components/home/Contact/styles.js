@@ -25,7 +25,7 @@ export const Wrapper = styled.div`
   gap: 15px;
 `;
 
-export const Row = styled.div`
+export const Row = styled.form`
   display: flex;
   gap: 25px;
 
@@ -74,4 +74,9 @@ export const Row = styled.div`
       transform: translateY(-4px);
     }
   }
+`;
+
+export const Success = styled.span`
+  margin-top: 5px;
+  font-size: 12px;
 `;

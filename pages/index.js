@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import Head from 'next/head';
 
 import {
@@ -13,6 +14,7 @@ import {
 } from 'components/home';
 import { Header, Footer } from 'components/layout';
 
+import { sendMessage } from 'services';
 import {
   about,
   invite,
@@ -25,6 +27,16 @@ import {
 } from 'data';
 
 const Home = () => {
+  const [sentSuccess, setSentSuccess] = useState(false);
+
+  const sendContact = (values) => {
+    sendMessage(values);
+    setSentSuccess(true);
+    setTimeout(() => {
+      setSentSuccess(false);
+    }, 10000);
+  };
+
   return (
     <>
       <Head>
@@ -59,7 +71,7 @@ const Home = () => {
       <Section data={aspect} />
       {/* <GiftCard /> */}
       <GridText title='Our Team' data={ourTeamData} link='Team' />
-      <Contact />
+      <Contact onSubmit={sendContact} success={sentSuccess} />
       <Footer />
     </>
   );

@@ -1,26 +1,81 @@
-import React from 'react';
+import React, { useState } from 'react';
 
-import { Container, Wrapper, Row } from './styles';
+import { Container, Wrapper, Row, Success } from './styles';
 
-const Contact = () => {
+const Contact = ({ onSubmit, success }) => {
+  const [values, setValues] = useState({
+    firstName: '',
+    lastName: '',
+    email: '',
+    company: '',
+    message: '',
+  });
+
+  const handleInputChange = (e) => {
+    const { name, value } = e.target;
+    setValues({ ...values, [name]: value });
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setValues({
+      firstName: '',
+      lastName: '',
+      email: '',
+      company: '',
+      message: '',
+    });
+    onSubmit(values);
+  };
+
   return (
     <Container>
-      <h1>Contact Us</h1>
+      <h1>Contact</h1>
 
-      <Wrapper>
+      <Wrapper onSubmit={handleSubmit}>
         <Row>
-          <input type='text' placeholder='First Name' />
-          <input type='text' placeholder='Last Name' />
+          <input
+            type='text'
+            name='firstName'
+            placeholder='First Name'
+            onChange={handleInputChange}
+          />
+          <input
+            type='text'
+            name='lastName'
+            placeholder='Last Name'
+            onChange={handleInputChange}
+          />
         </Row>
         <Row>
-          <input type='text' placeholder='Email' />
-          <input type='text' placeholder='Company' />
+          <input
+            type='email'
+            id='email'
+            name='email'
+            placeholder='Email'
+            onChange={handleInputChange}
+          />
+          <input
+            type='text'
+            name='company'
+            placeholder='Company'
+            onChange={handleInputChange}
+          />
         </Row>
         <Row>
-          <textarea rows='12' type='text' placeholder='Message' />
+          <textarea
+            rows='12'
+            name='message'
+            type='text'
+            placeholder='Message'
+            onChange={handleInputChange}
+          />
         </Row>
+        {success && <Success>We've got your message!</Success>}
         <Row>
-          <button className='button'>Send</button>
+          <button className='button' type='submit'>
+            Send
+          </button>
         </Row>
       </Wrapper>
     </Container>
