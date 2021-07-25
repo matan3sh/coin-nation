@@ -65,9 +65,9 @@ const Home = () => {
       /> */}
       <GridText title='Our Speakers' data={ourSpeakersData} link='Speakers' />
       <Section data={invite} />
-      <About />
+      {/* <About />
       <Agenda />
-      <TrackList data={trackList} />
+      <TrackList data={trackList} /> */}
       <Section data={aspect} />
       {/* <GiftCard /> */}
       <GridText title='Our Team' data={ourTeamData} link='Team' />
