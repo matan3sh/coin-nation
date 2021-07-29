@@ -47,6 +47,7 @@ export const ourSupportersData = [
   '/images/our_supporters/Aleph.png',
   '/images/our_supporters/ZenGo_Logo.png',
   '/images/our_supporters/Simplex_logo.png',
+  '/images/our_supporters/IMG_9649.jpg',
 ];
 
 export const ourSpeakersData = [
@@ -159,6 +160,16 @@ export const ourSpeakersData = [
     name: 'Ouriel Ohayon',
     image: '/images/our_speakers/Ouriel_Ohayon.png',
     role: 'CEO, Co-Founder - ZenGo',
+  },
+  {
+    name: 'Natalie Brunell',
+    image: '/images/our_speakers/Natalie_Brunell.png',
+    role: 'Founder, Coin Stories Podcast',
+  },
+  {
+    name: 'Avishay Ovadia',
+    image: '/images/our_speakers/Avishay_Ovadia.png',
+    role: 'General Partner, Collider Ventures',
   },
 ];
 
