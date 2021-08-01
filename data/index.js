@@ -36,7 +36,7 @@ export const ourPartnersData = [
 
 export const ourSupportersData = [
   '/images/our_supporters/MoonWhiteOnBlackSquare.png',
-  '/images/our_supporters/118617057_1679329048882841_4145009900250462274_n.jpg',
+  '/images/our_supporters/Collider_Labs.png',
   '/images/our_supporters/celsius.png',
   '/images/our_supporters/simetria.io.png',
   '/images/our_supporters/CM_Logo.png',
@@ -169,7 +169,7 @@ export const ourSpeakersData = [
   {
     name: 'Avishay Ovadia',
     image: '/images/our_speakers/Avishay_Ovadia.png',
-    role: 'General Partner, Collider Ventures',
+    role: 'Founding Partner, Collider Labs',
   },
 ];
 
