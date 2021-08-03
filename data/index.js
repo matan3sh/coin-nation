@@ -48,6 +48,7 @@ export const ourSupportersData = [
   '/images/our_supporters/ZenGo_Logo.png',
   '/images/our_supporters/Simplex_logo.png',
   '/images/our_supporters/IMG_9649.jpg',
+  '/images/our_supporters/blockchain_founder_fund.png',
 ];
 
 export const ourSpeakersData = [
@@ -170,6 +171,11 @@ export const ourSpeakersData = [
     name: 'Avishay Ovadia',
     image: '/images/our_speakers/Avishay_Ovadia.png',
     role: 'Founding Partner, Collider Labs',
+  },
+  {
+    name: 'Aly Madhavji',
+    image: '/images/our_speakers/Aly_Madhavji.png',
+    role: 'Managing Partner, Blockchain Founders Fund',
   },
 ];
 
