@@ -177,6 +177,11 @@ export const ourSpeakersData = [
     image: '/images/our_speakers/Aly_Madhavji.png',
     role: 'Managing Partner, Blockchain Founders Fund',
   },
+  {
+    name: 'Aly Madhavji',
+    image: '/images/our_speakers/Jorge_Cortes.png',
+    role: 'Co- founder, BitBasel and UnifyIT Inc',
+  },
 ];
 
 export const ourTeamData = [
