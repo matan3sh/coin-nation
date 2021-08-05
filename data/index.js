@@ -49,6 +49,7 @@ export const ourSupportersData = [
   '/images/our_supporters/Simplex_logo.png',
   '/images/our_supporters/IMG_9649.jpg',
   '/images/our_supporters/blockchain_founder_fund.png',
+  '/images/our_supporters/Whub.jpeg',
 ];
 
 export const ourSpeakersData = [
