@@ -50,6 +50,7 @@ export const ourSupportersData = [
   '/images/our_supporters/IMG_9649.jpg',
   '/images/our_supporters/blockchain_founder_fund.png',
   '/images/our_supporters/Whub.jpeg',
+  '/images/our_supporters/amber.png',
 ];
 
 export const ourSpeakersData = [
@@ -179,9 +180,14 @@ export const ourSpeakersData = [
     role: 'Managing Partner, Blockchain Founders Fund',
   },
   {
-    name: 'Aly Madhavji',
+    name: 'Jorge Cortes',
     image: '/images/our_speakers/Jorge_Cortes.png',
     role: 'Co- founder, BitBasel and UnifyIT Inc',
+  },
+  {
+    name: 'Aleks Svetski',
+    image: '/images/our_speakers/Aleks_Svetski.png',
+    role: 'Founder @ Amber.app & Host of Wake Up Podcast',
   },
 ];
 
