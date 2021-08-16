@@ -54,6 +54,11 @@ const Hero = () => {
               height={54}
             /> */}
             <img
+              src='/static/images/supporters/Nuvei_white.png'
+              width={96}
+              height={54}
+            />
+            <img
               src='/static/images/supporters/Circle.png'
               width={96}
               height={54}

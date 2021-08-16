@@ -53,16 +53,16 @@ const Home = () => {
       <Header />
       <Hero />
       <GridSection
+        data={ourPartnersData}
+        title='Our Partners'
+        link='Partners'
+      />
+      <GridSection
         data={ourSupportersData}
         title='Supporters'
         link='Supporters'
       />
       <Section data={about} />
-      {/* <GridSection
-        data={ourPartnersData}
-        title='Past Partners'
-        link='Partners'
-      /> */}
       <GridText title='Our Speakers' data={ourSpeakersData} link='Speakers' />
       <Section data={invite} />
       {/* <About />

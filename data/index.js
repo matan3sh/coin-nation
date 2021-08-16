@@ -24,19 +24,22 @@ export const aspect = {
 };
 
 export const ourPartnersData = [
-  '/images/our_partners/Money2020_ByAscential_Logo_BlackRGB-2.jpeg',
-  '/images/our_partners/IHK-FHK-vertical.png',
-  '/images/our_partners/forein-affairs.png',
-  '/images/our_partners/Logo_curve_black.png',
-  '/images/our_partners/121623007_403125854420377_6033313637829888335_n.jpg',
-  '/images/our_partners/Tipalti-Color_Tipalti_Wordmark_Registered-MC-D.jpg',
-  '/images/our_partners/MSStartups_wordmark-Bold-black-2048x223-1.png',
+  // '/images/our_partners/Money2020_ByAscential_Logo_BlackRGB-2.jpeg',
+  // '/images/our_partners/IHK-FHK-vertical.png',
+  // '/images/our_partners/forein-affairs.png',
+  // '/images/our_partners/Logo_curve_black.png',
+  // '/images/our_partners/121623007_403125854420377_6033313637829888335_n.jpg',
+  // '/images/our_partners/Tipalti-Color_Tipalti_Wordmark_Registered-MC-D.jpg',
+  // '/images/our_partners/MSStartups_wordmark-Bold-black-2048x223-1.png',
   '/images/our_partners/visa.png',
+  '/images/our_partners/circle.jpeg',
+  '/images/our_partners/Nuvei.png',
+  '/images/our_partners/celsius.png',
 ];
 
 export const ourSupportersData = [
   '/images/our_supporters/MoonWhiteOnBlackSquare.png',
-  '/images/our_supporters/118617057_1679329048882841_4145009900250462274_n.jpg',
+  '/images/our_supporters/Collider_Labs.png',
   '/images/our_supporters/celsius.png',
   '/images/our_supporters/simetria.io.png',
   '/images/our_supporters/CM_Logo.png',
@@ -47,6 +50,12 @@ export const ourSupportersData = [
   '/images/our_supporters/Aleph.png',
   '/images/our_supporters/ZenGo_Logo.png',
   '/images/our_supporters/Simplex_logo.png',
+  '/images/our_supporters/IMG_9649.jpg',
+  '/images/our_supporters/blockchain_founder_fund.png',
+  '/images/our_supporters/Whub.jpeg',
+  '/images/our_supporters/amber.png',
+  '/images/our_supporters/ConsenSys.png',
+  '/images/our_supporters/nash.png',
 ];
 
 export const ourSpeakersData = [
@@ -159,6 +168,46 @@ export const ourSpeakersData = [
     name: 'Ouriel Ohayon',
     image: '/images/our_speakers/Ouriel_Ohayon.png',
     role: 'CEO, Co-Founder - ZenGo',
+  },
+  {
+    name: 'Natalie Brunell',
+    image: '/images/our_speakers/Natalie_Brunell.png',
+    role: 'Founder, Coin Stories Podcast',
+  },
+  {
+    name: 'Avishay Ovadia',
+    image: '/images/our_speakers/Avishay_Ovadia.png',
+    role: 'Founding Partner, Collider Labs',
+  },
+  {
+    name: 'Aly Madhavji',
+    image: '/images/our_speakers/Aly_Madhavji.png',
+    role: 'Managing Partner, Blockchain Founders Fund',
+  },
+  {
+    name: 'Jorge Cortes',
+    image: '/images/our_speakers/Jorge_Cortes.png',
+    role: 'Co- founder, BitBasel and UnifyIT Inc',
+  },
+  {
+    name: 'Aleks Svetski',
+    image: '/images/our_speakers/Aleks_Svetski.png',
+    role: 'Founder @ Amber.app & Host of Wake Up Podcast',
+  },
+  {
+    name: 'Patrick Stanley',
+    image: '/images/our_speakers/Patrick_Stanley.png',
+    role: 'Creator of CityCoins',
+  },
+  {
+    name: 'Lex Sokolin',
+    image: '/images/our_speakers/Lex_Sokolin.png',
+    role: 'Global Fintech Co-Head at ConsenSys',
+  },
+  {
+    name: 'Kellogg Fairbank',
+    image: '/images/our_speakers/Kellogg_Fairbank.png',
+    role: 'CEO at Nash',
   },
 ];
 
