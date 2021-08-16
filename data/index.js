@@ -40,7 +40,6 @@ export const ourPartnersData = [
 export const ourSupportersData = [
   '/images/our_supporters/MoonWhiteOnBlackSquare.png',
   '/images/our_supporters/Collider_Labs.png',
-  '/images/our_supporters/celsius.png',
   '/images/our_supporters/simetria.io.png',
   '/images/our_supporters/CM_Logo.png',
   '/images/our_supporters/BCB-GROUP-LOGO-BLUE-RGB.png',
