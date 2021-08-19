@@ -55,6 +55,7 @@ export const ourSupportersData = [
   '/images/our_supporters/amber.png',
   '/images/our_supporters/ConsenSys.png',
   '/images/our_supporters/nash.png',
+  '/images/our_supporters/Niftys.png',
 ];
 
 export const ourSpeakersData = [
@@ -207,6 +208,11 @@ export const ourSpeakersData = [
     name: 'Kellogg Fairbank',
     image: '/images/our_speakers/Kellogg_Fairbank.png',
     role: 'CEO at Nash',
+  },
+  {
+    name: 'Jeff Marsilio',
+    image: '/images/our_speakers/Jeff_Marsilio.png',
+    role: 'CEO, Co-Founder at Nifty’s, Inc.',
   },
 ];
 
