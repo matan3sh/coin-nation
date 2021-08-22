@@ -214,6 +214,11 @@ export const ourSpeakersData = [
     image: '/images/our_speakers/Jeff_Marsilio.png',
     role: 'CEO, Co-Founder at Nifty’s, Inc.',
   },
+  {
+    name: 'Raphael Tetro',
+    image: '/images/our_speakers/Raphael_Tetro.png',
+    role: 'SVP Merchant Services at Nuvei',
+  },
 ];
 
 export const ourTeamData = [
