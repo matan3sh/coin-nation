@@ -40,6 +40,7 @@ export const ourPartnersData = [
 export const ourSupportersData = [
   '/images/our_supporters/MoonWhiteOnBlackSquare.png',
   '/images/our_supporters/Collider_Labs.png',
+  '/images/our_supporters/Draper.png',
   '/images/our_supporters/simetria.io.png',
   '/images/our_supporters/CM_Logo.png',
   '/images/our_supporters/BCB-GROUP-LOGO-BLUE-RGB.png',
@@ -56,7 +57,6 @@ export const ourSupportersData = [
   '/images/our_supporters/ConsenSys.png',
   '/images/our_supporters/nash.png',
   '/images/our_supporters/Niftys.png',
-  '/images/our_supporters/Draper.png',
 ];
 
 export const ourSpeakersData = [
@@ -69,6 +69,11 @@ export const ourSpeakersData = [
     name: 'Ken Kruger',
     image: '/images/our_speakers/Ken_Kruger.png',
     role: 'Founder & CEO - Moon',
+  },
+  {
+    name: 'Tim Draper',
+    image: '/images/our_speakers/Tim_Draper.png',
+    role: 'Founder, Draper Associates, DFJ, and Draper University.',
   },
   {
     name: 'Peter McCormack',
@@ -219,11 +224,6 @@ export const ourSpeakersData = [
     name: 'Raphael Tetro',
     image: '/images/our_speakers/Raphael_Tetro.png',
     role: 'SVP Merchant Services at Nuvei',
-  },
-  {
-    name: 'Tim Draper',
-    image: '/images/our_speakers/Tim_Draper.png',
-    role: 'Founder, Draper Associates, DFJ, and Draper University.',
   },
 ];
 
