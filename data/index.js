@@ -56,6 +56,7 @@ export const ourSupportersData = [
   '/images/our_supporters/ConsenSys.png',
   '/images/our_supporters/nash.png',
   '/images/our_supporters/Niftys.png',
+  '/images/our_supporters/Draper.png',
 ];
 
 export const ourSpeakersData = [
@@ -218,6 +219,11 @@ export const ourSpeakersData = [
     name: 'Raphael Tetro',
     image: '/images/our_speakers/Raphael_Tetro.png',
     role: 'SVP Merchant Services at Nuvei',
+  },
+  {
+    name: 'Tim Draper',
+    image: '/images/our_speakers/Tim_Draper.png',
+    role: 'Founder, Draper Associates, DFJ, and Draper University.',
   },
 ];
 
