@@ -60,6 +60,11 @@ export const ourSupportersData = [
   '/images/our_supporters/UniqueNetworkLogo.svg',
   '/images/our_supporters/gk8_logo.jpg',
   '/images/our_supporters/fuse_logo.svg',
+  '/images/our_supporters/black-mp-logo.png',
+  '/images/our_supporters/Flagship_logo.png',
+  '/images/our_supporters/The_Paypers_logo.png',
+  '/images/our_supporters/Cheeze.png',
+  '/images/our_supporters/token_bay_logo.png',
 ];
 
 export const ourSpeakersData = [
