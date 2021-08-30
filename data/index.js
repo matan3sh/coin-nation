@@ -57,6 +57,9 @@ export const ourSupportersData = [
   '/images/our_supporters/ConsenSys.png',
   '/images/our_supporters/nash.png',
   '/images/our_supporters/Niftys.png',
+  '/images/our_supporters/UniqueNetworkLogo.svg',
+  '/images/our_supporters/gk8_logo.jpg',
+  '/images/our_supporters/fuse_logo.svg',
 ];
 
 export const ourSpeakersData = [
@@ -224,6 +227,26 @@ export const ourSpeakersData = [
     name: 'Raphael Tetro',
     image: '/images/our_speakers/Raphael_Tetro.png',
     role: 'SVP Merchant Services at Nuvei',
+  },
+  {
+    name: 'Alexander Mitrovich',
+    image: '/images/our_speakers/Alexander_Mitrovich.png',
+    role: 'Co-founder, CEO at Unique',
+  },
+  {
+    name: 'Syed Musheer Ahmed',
+    image: '/images/our_speakers/Syed_Musheer_Ahmed.png',
+    role: 'Founder & MD at Finstep Asia',
+  },
+  {
+    name: 'Lior Lamesh',
+    image: '/images/our_speakers/Lior_Lamesh.png',
+    role: 'Co-Founder and CEO at GK8',
+  },
+  {
+    name: 'Mark Smargon',
+    image: '/images/our_speakers/Mark_Smargon.png',
+    role: 'CEO at Fuse.io',
   },
 ];
 
