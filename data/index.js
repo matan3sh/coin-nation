@@ -65,6 +65,8 @@ export const ourSupportersData = [
   '/images/our_supporters/The_Paypers_logo.png',
   '/images/our_supporters/Cheeze.png',
   '/images/our_supporters/token_bay_logo.png',
+  '/images/our_supporters/GLOZAL.png',
+  '/images/our_supporters/SuperWorld.png',
 ];
 
 export const ourSpeakersData = [
@@ -252,6 +254,46 @@ export const ourSpeakersData = [
     name: 'Mark Smargon',
     image: '/images/our_speakers/Mark_Smargon.png',
     role: 'CEO at Fuse.io',
+  },
+  {
+    name: 'Ivan Soto-Wright',
+    image: '/images/our_speakers/Ivan_Soto-Wright.png',
+    role: 'Co-Founder & CEO at MoonPay',
+  },
+  {
+    name: 'Lucy Gazmararian',
+    image: '/images/our_speakers/Lucy_Gazmararian.png',
+    role: 'Founder & Managing Partner at Token Bay Capital',
+  },
+  {
+    name: 'Gilat Alon Shemesh',
+    image: '/images/our_speakers/Gilat_Alon_Shemesh.png',
+    role: 'Wingate Asset Management',
+  },
+  {
+    name: 'Mélisande Mual',
+    image: '/images/our_speakers/Melisande_Mual.png',
+    role: 'Publisher of The Paypers',
+  },
+  {
+    name: 'Joel Van Arsdale',
+    image: '/images/our_speakers/Joel_Van_Arsdale.png',
+    role: 'Managing Partner at Flagship Advisory Partners',
+  },
+  {
+    name: 'Simon Hudson',
+    image: '/images/our_speakers/Simon_Hudson.png',
+    role: 'CEO at Cheeze',
+  },
+  {
+    name: 'Tarek Kirschen',
+    image: '/images/our_speakers/Tarek_Kirschen.png',
+    role: 'Founder & CEO at GLOZAL',
+  },
+  {
+    name: 'Tarek Kirschen',
+    image: '/images/our_speakers/Hrish_Lotlikar.png',
+    role: 'Co-Founder & CEO at SuperWorld',
   },
 ];
 
