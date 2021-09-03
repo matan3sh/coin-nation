@@ -67,6 +67,7 @@ export const ourSupportersData = [
   '/images/our_supporters/token_bay_logo.png',
   '/images/our_supporters/GLOZAL.png',
   '/images/our_supporters/SuperWorld.png',
+  '/images/our_supporters/bitcoin.png',
 ];
 
 export const ourSpeakersData = [
