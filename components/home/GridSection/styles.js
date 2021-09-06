@@ -44,7 +44,7 @@ export const List = styled.div`
     grid-template-columns: repeat(1, 1fr);
   }
   > img {
-    width: 200px;
+    width: 210px;
     padding: 20px;
     min-height: 140px;
     object-fit: contain;
