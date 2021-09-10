@@ -292,9 +292,14 @@ export const ourSpeakersData = [
     role: 'Founder & CEO at GLOZAL',
   },
   {
-    name: 'Tarek Kirschen',
+    name: 'Hrish Lotlikar',
     image: '/images/our_speakers/Hrish_Lotlikar.png',
     role: 'Co-Founder & CEO at SuperWorld',
+  },
+  {
+    name: 'David Berkowitz',
+    image: '/images/our_speakers/David_Berkowitz.png',
+    role: 'CMO Coin Creator & Serial Marketers community',
   },
 ];
 
