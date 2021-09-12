@@ -68,6 +68,8 @@ export const ourSupportersData = [
   '/images/our_supporters/GLOZAL.png',
   '/images/our_supporters/SuperWorld.png',
   '/images/our_supporters/bitcoin.png',
+  '/images/our_supporters/GMG-logos.jpeg',
+  '/images/our_supporters/logo_splinterlands_characters_beta_1200.png',
 ];
 
 export const ourSpeakersData = [
@@ -300,6 +302,16 @@ export const ourSpeakersData = [
     name: 'David Berkowitz',
     image: '/images/our_speakers/David_Berkowitz.png',
     role: 'CMO Coin Creator & Serial Marketers community',
+  },
+  {
+    name: 'Jesse “Aggroed” Reich',
+    image: '/images/our_speakers/Jesse_Aggroed_Reich.png',
+    role: 'Founder Splinterlands',
+  },
+  {
+    name: 'Bored Elon',
+    image: '/images/our_speakers/Bored_Elon_Musk.png',
+    role: '@BoredElonMusk',
   },
 ];
 
