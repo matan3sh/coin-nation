@@ -68,6 +68,11 @@ const Hero = () => {
               width={84}
               height={26.5}
             />
+            <img
+              src='/static/images/supporters/MP_High-Res_Logo_White.png'
+              width={128}
+              height={54.5}
+            />
           </div>
         </Supporters>
       </Wrapper>

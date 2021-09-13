@@ -34,6 +34,7 @@ export const ourPartnersData = [
   '/images/our_partners/visa.png',
   '/images/our_partners/circle.jpeg',
   '/images/our_partners/Nuvei.png',
+  '/images/our_supporters/black-mp-logo.png',
   '/images/our_partners/celsius.png',
 ];
 

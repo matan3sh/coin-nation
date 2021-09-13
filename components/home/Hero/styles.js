@@ -270,12 +270,14 @@ export const Supporters = styled.div`
   transform: translate(40px, 50px);
   > h3 {
     margin-bottom: 1rem;
+    transform: translateX(13px);
   }
   > div {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     gap: 25px;
+    width: 340px;
   }
   @media screen and (max-height: 815px) {
     transform: translateY(125px);

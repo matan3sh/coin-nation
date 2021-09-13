@@ -46,7 +46,7 @@ export const List = styled.div`
   > img {
     width: 210px;
     padding: 20px;
-    min-height: 140px;
+    min-height: 160px;
     object-fit: contain;
     &:hover {
       transform: scale(1.02);
