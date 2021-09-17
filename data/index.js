@@ -174,11 +174,11 @@ export const ourSpeakersData = [
     image: '/images/our_speakers/Yonat_Vaks.png',
     role: 'Cryptoartist',
   },
-  // {
-  //   name: 'Nikola Plecas',
-  //   image: '/images/our_speakers/Nikola_Plecas.png',
-  //   role: 'Head of New Payment Flows Practice, VCA Europe',
-  // },
+  {
+    name: 'Nikola Plecas',
+    image: '/images/our_speakers/Nikola_Plecas.png',
+    role: 'Head of New Payment Flows Practice, VCA Europe',
+  },
   {
     name: 'Nimrod Lehavi',
     image: '/images/our_speakers/Nimrod_Lehavi.png',
