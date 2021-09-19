@@ -71,9 +71,25 @@ export const ourSupportersData = [
   '/images/our_supporters/bitcoin.png',
   '/images/our_supporters/GMG-logos.jpeg',
   '/images/our_supporters/logo_splinterlands_characters_beta_1200.png',
+  '/images/our_supporters/CryptoCanal.png',
 ];
 
 export const ourSpeakersData = [
+  {
+    name: 'Catherine Gu',
+    image: '/images/our_speakers/Catherine_Gu.png',
+    role: 'Global CBDC Lead at Visa',
+  },
+  {
+    name: 'Tim Draper',
+    image: '/images/our_speakers/Tim_Draper.png',
+    role: 'Founder, Draper Associates, DFJ, and Draper University.',
+  },
+  {
+    name: 'Nikola Plecas',
+    image: '/images/our_speakers/Nikola_Plecas.png',
+    role: 'Head of New Payment Flows Practice, VCA Europe',
+  },
   {
     name: 'Chris Aruliah',
     image: '/images/our_speakers/Chris_Aruliah.png',
@@ -83,11 +99,6 @@ export const ourSpeakersData = [
     name: 'Ken Kruger',
     image: '/images/our_speakers/Ken_Kruger.png',
     role: 'Founder & CEO - Moon',
-  },
-  {
-    name: 'Tim Draper',
-    image: '/images/our_speakers/Tim_Draper.png',
-    role: 'Founder, Draper Associates, DFJ, and Draper University.',
   },
   {
     name: 'Peter McCormack',
@@ -174,11 +185,7 @@ export const ourSpeakersData = [
     image: '/images/our_speakers/Yonat_Vaks.png',
     role: 'Cryptoartist',
   },
-  {
-    name: 'Nikola Plecas',
-    image: '/images/our_speakers/Nikola_Plecas.png',
-    role: 'Head of New Payment Flows Practice, VCA Europe',
-  },
+
   {
     name: 'Nimrod Lehavi',
     image: '/images/our_speakers/Nimrod_Lehavi.png',
@@ -313,6 +320,11 @@ export const ourSpeakersData = [
     name: 'Bored Elon',
     image: '/images/our_speakers/Bored_Elon_Musk.png',
     role: '@BoredElonMusk',
+  },
+  {
+    name: 'Eléonore Blanc',
+    image: '/images/our_speakers/Eleonore_Blanc.png',
+    role: 'Founder CryptoCanal & Humans of Crypto Podcast',
   },
 ];
 
