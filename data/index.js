@@ -72,6 +72,7 @@ export const ourSupportersData = [
   '/images/our_supporters/GMG-logos.jpeg',
   '/images/our_supporters/logo_splinterlands_characters_beta_1200.png',
   '/images/our_supporters/CryptoCanal.png',
+  '/images/our_supporters/Blockdata_logoFINAL.png',
 ];
 
 export const ourSpeakersData = [
@@ -88,7 +89,12 @@ export const ourSpeakersData = [
   {
     name: 'Nikola Plecas',
     image: '/images/our_speakers/Nikola_Plecas.png',
-    role: 'Head of New Payment Flows Practice, VCA Europe',
+    role: 'Director, Crypto Solutions, Europe, Visa',
+  },
+  {
+    name: 'Raj Parekh',
+    image: '/images/our_speakers/Raj_Parekh.png',
+    role: 'Director of Global Crypto Products at Visa',
   },
   {
     name: 'Chris Aruliah',
@@ -325,6 +331,11 @@ export const ourSpeakersData = [
     name: 'Eléonore Blanc',
     image: '/images/our_speakers/Eleonore_Blanc.png',
     role: 'Founder CryptoCanal & Humans of Crypto Podcast',
+  },
+  {
+    name: 'Jonathan Knegtel',
+    image: '/images/our_speakers/Jonathan_Knegtel.png',
+    role: 'Co-founder & General Manager of Blockdata',
   },
 ];
 
