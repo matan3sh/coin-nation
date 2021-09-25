@@ -73,6 +73,7 @@ export const ourSupportersData = [
   '/images/our_supporters/logo_splinterlands_characters_beta_1200.png',
   '/images/our_supporters/CryptoCanal.png',
   '/images/our_supporters/Blockdata_logoFINAL.png',
+  '/images/our_supporters/flow_logo.png',
 ];
 
 export const ourSpeakersData = [
