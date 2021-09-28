@@ -98,6 +98,11 @@ export const ourSpeakersData = [
     role: 'Director of Global Crypto Products at Visa',
   },
   {
+    name: 'AJ Shanley',
+    image: '/images/our_speakers/AJ_Shanley.png',
+    role: 'VP and Head of Crypto Solutions & Operations at Visa',
+  },
+  {
     name: 'Chris Aruliah',
     image: '/images/our_speakers/Chris_Aruliah.png',
     role: 'Chief Product Officer - BCB Group',
@@ -337,6 +342,11 @@ export const ourSpeakersData = [
     name: 'Jonathan Knegtel',
     image: '/images/our_speakers/Jonathan_Knegtel.png',
     role: 'Co-founder & General Manager of Blockdata',
+  },
+  {
+    name: 'Wei Yu',
+    image: '/images/our_speakers/Wei_Yu.png',
+    role: 'Head of Marketing at Flow',
   },
 ];
 
