@@ -348,6 +348,36 @@ export const ourSpeakersData = [
     image: '/images/our_speakers/Wei_Yu.png',
     role: 'Head of Marketing at Flow',
   },
+  {
+    name: 'Cory Klippsten',
+    image: '/images/our_speakers/Cory_Klippsten.png',
+    role: 'Founder and CEO at Swan Bitcoin',
+  },
+  {
+    name: 'Cameron Chell',
+    image: '/images/our_speakers/Cameron_Chell.png',
+    role: 'Executive Chairman - CurrencyWorks Co-Head - VUELE',
+  },
+  {
+    name: 'Ben Samaroo',
+    image: '/images/our_speakers/Ben_Samaroo.png',
+    role: 'Co-Founder and CEO at WonderFi',
+  },
+  {
+    name: 'Dante Disparte',
+    image: '/images/our_speakers/Dante_Disparte.png',
+    role: 'Chief Strategy Officer and Head of Global Policy at Circle',
+  },
+  {
+    name: 'Christopher Torres',
+    image: '/images/our_speakers/Christopher_Torres.png',
+    role: 'Artist at Nyan Cat',
+  },
+  {
+    name: 'Asher Westropp-Evans',
+    image: '/images/our_speakers/Asher_Westropp-Evans.png',
+    role: 'Story Producer & Co-Host at Coins',
+  },
 ];
 
 export const ourTeamData = [
