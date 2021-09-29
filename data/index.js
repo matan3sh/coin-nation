@@ -103,6 +103,11 @@ export const ourSpeakersData = [
     role: 'VP and Head of Crypto Solutions & Operations at Visa',
   },
   {
+    name: 'Dante Disparte',
+    image: '/images/our_speakers/Dante_Disparte.png',
+    role: 'Chief Strategy Officer and Head of Global Policy at Circle',
+  },
+  {
     name: 'Chris Aruliah',
     image: '/images/our_speakers/Chris_Aruliah.png',
     role: 'Chief Product Officer - BCB Group',
@@ -362,11 +367,6 @@ export const ourSpeakersData = [
     name: 'Ben Samaroo',
     image: '/images/our_speakers/Ben_Samaroo.png',
     role: 'Co-Founder and CEO at WonderFi',
-  },
-  {
-    name: 'Dante Disparte',
-    image: '/images/our_speakers/Dante_Disparte.png',
-    role: 'Chief Strategy Officer and Head of Global Policy at Circle',
   },
   {
     name: 'Christopher Torres',
