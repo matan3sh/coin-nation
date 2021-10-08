@@ -74,6 +74,11 @@ export const ourSupportersData = [
   '/images/our_supporters/CryptoCanal.png',
   '/images/our_supporters/Blockdata_logoFINAL.png',
   '/images/our_supporters/flow_logo.png',
+  '/images/our_supporters/BIS.jpg',
+  '/images/our_supporters/bitpay.png',
+  '/images/our_supporters/coinbase-in.png',
+  '/images/our_supporters/Crypto.com_Blue stacked.png',
+  '/images/our_supporters/BAS_logo_FA_-Horizontal_RGB-Web.png',
 ];
 
 export const ourSpeakersData = [
@@ -377,6 +382,31 @@ export const ourSpeakersData = [
     name: 'Asher Westropp-Evans',
     image: '/images/our_speakers/Asher_Westropp-Evans.png',
     role: 'Story Producer & Co-Host at Coins',
+  },
+  {
+    name: 'Merrick Theobald',
+    image: '/images/our_speakers/Merrick_Theobald.png',
+    role: 'VP of Marketing at BitPay',
+  },
+  {
+    name: 'Ben Floyd',
+    image: '/images/our_speakers/Ben_Floyd.png',
+    role: 'Head of Execution Services at Coinbase Institutional',
+  },
+  {
+    name: 'Volen Tsolov',
+    image: '/images/our_speakers/Volen_Tsolov.png',
+    role: 'COO at GLOZAL, Inc',
+  },
+  {
+    name: 'Eric Anziani',
+    image: '/images/our_speakers/Eric_Anziani.png',
+    role: 'Chief Operating Officer at Crypto.com',
+  },
+  {
+    name: 'Daniel Eidan',
+    image: '/images/our_speakers/Daniel_Eidan.png',
+    role: 'Adviser and Solution Architect at the Bank for International Settlements (BIS)',
   },
 ];
 
