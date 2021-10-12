@@ -79,6 +79,7 @@ export const ourSupportersData = [
   '/images/our_supporters/coinbase-in.png',
   '/images/our_supporters/Crypto.com_Blue stacked.png',
   '/images/our_supporters/BAS_logo_FA_-Horizontal_RGB-Web.png',
+  '/images/our_supporters/etoro.jpeg',
 ];
 
 export const ourSpeakersData = [
@@ -407,6 +408,21 @@ export const ourSpeakersData = [
     name: 'Daniel Eidan',
     image: '/images/our_speakers/Daniel_Eidan.png',
     role: 'Adviser and Solution Architect at the Bank for International Settlements (BIS)',
+  },
+  {
+    name: 'Karena Belin',
+    image: '/images/our_speakers/Karena_Belin.png',
+    role: 'Karena Belin, Co-founder & CEO WHub',
+  },
+  {
+    name: 'Chia Hock Lai',
+    image: '/images/our_speakers/Chia_Hock_Lai.png',
+    role: 'Co-chairman Blockchain Association Singapore',
+  },
+  {
+    name: 'Brad Michelson.png',
+    image: '/images/our_speakers/Brad_Michelson.png',
+    role: 'Head of US Digital Assets Marketing at eToro',
   },
 ];
 
