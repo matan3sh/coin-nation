@@ -80,6 +80,7 @@ export const ourSupportersData = [
   '/images/our_supporters/Crypto.com_Blue stacked.png',
   '/images/our_supporters/BAS_logo_FA_-Horizontal_RGB-Web.png',
   '/images/our_supporters/etoro.jpeg',
+  '/images/our_supporters/H_Logomark_Lockup_black.png',
 ];
 
 export const ourSpeakersData = [
@@ -423,6 +424,11 @@ export const ourSpeakersData = [
     name: 'Brad Michelson.png',
     image: '/images/our_speakers/Brad_Michelson.png',
     role: 'Head of US Digital Assets Marketing at eToro',
+  },
+  {
+    name: 'Jordan Fried.png',
+    image: '/images/our_speakers/Jordan_Fried.png',
+    role: 'Chairman & CEO of Immutable Holdings',
   },
 ];
 
