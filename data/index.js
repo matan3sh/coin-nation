@@ -421,12 +421,12 @@ export const ourSpeakersData = [
     role: 'Co-chairman Blockchain Association Singapore',
   },
   {
-    name: 'Brad Michelson.png',
+    name: 'Brad Michelson',
     image: '/images/our_speakers/Brad_Michelson.png',
     role: 'Head of US Digital Assets Marketing at eToro',
   },
   {
-    name: 'Jordan Fried.png',
+    name: 'Jordan Fried',
     image: '/images/our_speakers/Jordan_Fried.png',
     role: 'Chairman & CEO of Immutable Holdings',
   },
